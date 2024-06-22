@@ -1,0 +1,39 @@
+.main-shoe{
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.main-shoe:hover{
+    transition-duration: 0.5s;
+    border: 1px solid rgb(227, 227, 227);
+}
+
+.shoe-all-imag{
+    transition-duration: 0.5s;
+    rotate: 0deg;
+    transform: translate(0);
+}
+
+.shoe-all-imag:hover{
+    transition-duration: 0.5s;
+    rotate: 10deg;
+    transform: translate(0px, -30px);
+}
+
+.card-bg{
+    transition: 0.5s;
+    background-color: rgb(241, 241, 241)
+}
+
+.card-bg:hover{
+    transition: 0.5s;
+    background-color: rgb(219, 219, 219);
+}
+.card-bg:hover + .button, .button:hover {
+    display: inline-block;
+}
+.circle{
+    margin-top: 20px;
+    margin-left: auto;
+    font-size: 20px;
+}
